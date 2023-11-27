@@ -1,0 +1,16 @@
+Una miniespecificación en la que se hace una secuencia con 2 números dados, el inicio y el fin, presentando solo los pares entre estos 2 números
+
+1.  Inicio
+2.  contador i, [0-n]
+3.  final i, [0-n]
+4.  << "Ingrese el primer número de la secuencia"
+5.  >> contador
+6.  << "Ingrese el último número de la secuencia"
+7.  >> final
+8.  Mientras contador <= final Entonces
+9. 	Si contador MOD 2 == 0 Entonces
+10. 		<< contador
+11. 	FinSi
+12. 	contador <-- contador + 1
+13. FinMientras
+14. Fin
